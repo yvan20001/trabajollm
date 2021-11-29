@@ -1,0 +1,44 @@
+.letra{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.titulo-letra{
+    display: flex;
+    text-align: center;
+}
+
+.cursos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+
+}
+
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
+
+
+a:hover{
+
+    color: gold;
+}
+
+.curso:hover{
+    background-color: aqua;
+    color: black;
+}
+
+h1,h2,p{
+    text-align: center;
+}
+
